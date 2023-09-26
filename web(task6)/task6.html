@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITS Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: plum;
+        }
+       
+        .container{
+            background-color: beige;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 50px;
+            border: 2px solid red;
+            border-radius: 5px;
+
+        }
+       img{
+        background-color: #fff;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 100px;
+    
+        
+           
+        }
+        h2 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .links a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <img src="logo.png" alt="logo"/>
+        <h2>Authentication Required</h2>
+        <p>Please enter your username and password</p>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button class="btn" type="submit">Continue</button>
+        </form>
+    </div>
+        <div class="links">
+            <a href="#">Grievance and Redressal Cell Website</a>
+            <a href="#">MITS Electives</a>
+            <a href="#">MITS MOOC'S</a>
+            <a href="#">MITS GDLC</a>
+            <a href="#">Library Soul - Opac</a>
+            <a href="#">MITS MOODLE Login</a>
+            <a href="#">MITSIMS(GEMS) Login</a>
+        </div>
+</body>
+</html>
